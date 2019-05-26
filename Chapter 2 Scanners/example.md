@@ -16,17 +16,9 @@ Construct an FA to accept each of the following languages:<br>
 **Review Questions**<br>
 
 1. Recall the RE for six-character identifier, written using a finite closure.
-<html>
-<head>
-<script type="text/javascript" src="http://latex.codecogs.com/editor3.js"></script>
-</head>
-<body>
-<p><a href="javascript:OpenLatexEditor('testbox','html','')">
-Launch CodeCogs Equation Editor
-</a>
+
  $$ ([A...Z]|[a...z])([A..Z]|[a..z]|[0...9])^5 $$
-</p>
-</html>
+
    rewrite it in terms of the three basic RE operations: Alternation, concatenation, and closure.
 2. In PL/I, the programmer can insert a quotation mark into a string by writing two quotation marks in a row. Thus, the string
 
@@ -38,6 +30,8 @@ Launch CodeCogs Equation Editor
 **Review Questions**<br>
 1. Consider the RE _who|what|where_. Use Thompon’s construction to build an NFA from RE. Use the subset construction to build a DFA from the NFA. Minimize the DFA.
 2. Minimize the following DFA:<br>
+
+
   ![DFA](DFA.jpg)
 
 
