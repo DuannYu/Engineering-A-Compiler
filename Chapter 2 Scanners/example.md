@@ -9,7 +9,7 @@ Construct an FA to accept each of the following languages:<br>
    ![2_2_1](2_2_1.jpg)
 2. A string of one or more oairs, where each pair consists of an open parenthesis followed by a close parenthsis.<br>
    ![2_2_2](2_2_2.jpg)
-3. A Pascal comment, which consists of an open brace, {, followed by zero or more characters drawn from an alphabet, $\\Sigma$,  followed by a close brace, }.
+3. A Pascal comment, which consists of an open brace, {, followed by zero or more characters drawn from an alphabet, **Sigma**,  followed by a close brace, }.
    ![2_2_3](2_2_3.jpg)
 
 ## 2.3 Regular Expressions
@@ -19,8 +19,8 @@ Construct an FA to accept each of the following languages:<br>
 1. Recall the RE for six-character identifier, written using a finite closure.
    **([A...Z]\|[a...z])([A..Z]\|[a..z]\|[0...9])^5**
 
-     rewrite it in terms of the three basic RE operations: Alternation, concatenation, and closure.
-
+   rewrite it in terms of the three basic RE operations: Alternation, concatenation, and closure.
+   ([A...Z]\|[a...z])([A..Z]\|[a..z]\|[0...9])([A..Z]\|[a..z]\|[0...9])([A..Z]\|[a..z]\|[0...9])([A..Z]\|[a..z]\|[0...9])([A..Z]\|[a..z]\|[0...9])
 2. In PL/I, the programmer can insert a quotation mark into a string by writing two quotation marks in a row. Thus, the string
 
    _The quotation mark, ", should be tyoeset in italics_
