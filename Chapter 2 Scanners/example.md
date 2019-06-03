@@ -69,6 +69,7 @@ RE"(^"|"")*"
 | a    | b    | c    | Other | Other |
 
 **Transition table**
+
 | ---  | a    | b    | c    | Other |
 | ---- | ---- | ---- | ---- | ----- |
 | S0   | S1   | S2   | S3   | Se    |
@@ -82,3 +83,4 @@ RE"(^"|"")*"
 | S8   | Se   | Se   | Se   | Se    |
 | S9   | Se   | Se   | Se   | Se    |
 | Se   | Se   | Se   | Se   | Se    |
+
